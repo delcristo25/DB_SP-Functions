@@ -1,0 +1,24 @@
+
+--Pueden ser llamdas por nobre o anónimas.
+
+--1. EJERCICIO:
+    --PROCEDURE ANINIMO--HOLA MUNDO
+
+DECLARE
+  VAR1 NUMBER :=1;
+  START_TIME NUMBER :=0;
+  END_TIME NUMBER:=0;
+
+BEGIN
+  
+  DBMS_OUTPUT.PUT_LINE('Global Variable '|| VAR1);
+-- VER PROCEDIMIENTOS:VER- SALIDA DBMS
+
+DECLARE
+  --Variable Local
+  VAR1 NUMBER:=2;
+BEGIN 
+  DBMS_OUTPUT.PUT_LINE('Helo '|| VAR1);
+
+END;
+END;
