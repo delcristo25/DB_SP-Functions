@@ -14,5 +14,8 @@ END;
 --Luego ejecuta el begin:
 
 BEGIN
+--también se puede llamar funciones con la tabla DUAL
+    SELECT findMin(40,10) as RESULTADO FROM DUAL;
+    
    DBMS_OUTPUT.PUT_LINE('MIN 20-40:' || findMin(20,40));
 END;
